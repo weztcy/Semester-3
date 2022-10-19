@@ -1,0 +1,1 @@
+Mahasiswa mampu menjelaskan Bahasa Basis Data, Data Definition Language (DDL), Data Manipulation Language (DML), DBMS, dan  melakukan instalasi MySQL serta membangun database dan tabel sederhana dengan MySQL

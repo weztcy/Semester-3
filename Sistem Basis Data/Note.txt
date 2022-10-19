@@ -1,0 +1,11 @@
+Kontrak Kuliah 
+Tugas	:40	%
+UTS	:30	%
+UAS	:30	%
+Total	:100	%
+
+Referensi
+- Silberschatz, A., Korth, H. F. & Sudarshan, S., 2022. Database System Concepts. 7th ed. New York: McGraw-Hill Education. 
+- Connolly, T. & Begg, C., 2015. Database Systems Apracticial Approach to Design, Implementation, and Management. Sixth Edition ed. s.l.:Pearson.
+- Elmasri, R. & Navathe, S. B., 2016. Fundamentalsmof Database Systems. 7th ed. s.l.:Pearson.
+- Aripin., 2005. Praktikum Basis Data Dengan Database Server MySQL. Semarang: Fakultas Ilmu Komputer.
