@@ -1,0 +1,3 @@
+Mahasiswa mampu:
+menjelaskan definisi dan fungsi 3 layer atas (Application, Presentation & Session)
+memberikan contoh penerapan protokol 3 layer OSI (layanan di jaringan)

@@ -1,0 +1,5 @@
+Mahasiswa mampu:
+menjelaskan definisi serta konsep sebuah protokol 
+menjelaskan perbedaan TCP/IP dan OSI model Protokol 
+menjelaskan fungsi perangkat berkaitan dengan layer OSI 4
+menjelaskan proses Enkapsulasi data berdasarkan layer OSI

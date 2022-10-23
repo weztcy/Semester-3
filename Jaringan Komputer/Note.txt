@@ -1,0 +1,54 @@
+Selamat datang di Mata Kuliah Daring “Jaringan Komputer” Universitas Dian Nuswantoro. Mata kuliah ini merupakan mata kuliah wajib Program Studi Sarjana Teknik Informatika. Mata Kuliah ini  mengkaji tentang konsep dan model jaringan komputer, manfaat, kegunaan dan efek penggunaannya. Mahasiswa akan diajak untuk melihat dan mempelajari tentang perkembangan teknologi jaringan dan pemanfaatannya dalam kehidupan sehari-hari untuk segala bidang aspek kehidupan dan kebutuhan manusia. Selain itu, diperkenalkan pula piranti pendukung untuk pengelolaan jaringan komputer, Mahasiswa akan diajarkan mengenai langkah perencanaan, desain dan konfigurasi piranti pendukung untuk membangun sebuah jaringan yang baik.
+
+Strategi pembelajaran secara umum akan dilakukan secara daring melalui LMS kulino.dinus.ac.id yang akan terbagi dalam beberapa aktivitas yaitu
+
+Tatap muka
+Self study (modul kuliah dan Video Tutorial)
+Forum Diskusi
+Tugas Online
+Quiz
+Mid Exam dan Final Exam
+
+Untuk dapat lulus dari mata kuliah ini, maka mahasiswa perlu memperhatikan beberapa aturan sebagai berikut :
+
+Kehadiran minimum 75%
+Setiap activity yang ada dalam LMS kulino.ac.id akan tercatat secara otomatis dalam sistem sebagai bentuk “Activity Completion” yang akan direkap sebagai penilaian
+Activity completion yang akan dinilai adalah sebagai berikut :
+Kehadiran
+Tugas
+Projek
+UTS
+UAS
+
+Referensi Utama yang digunakan
+
+Modul perkuliahan dalam kulino
+CCNA: Introduction to Networks v7.2, Cisco Networking Academy, 2021
+An Introduction to Computer Networks, Peter L Dordal, 2021
+
+Setelah mengikuti perkuliahan ini, mahasiswa mampu
+
+Menjelaskan dasar dan perkembangan teknologi seputar jaringan komputer
+Menyebutkan dan menjelaskan peran dari piranti pendukung jaringan komputer
+Merancang desain jaringan komputer sederhana beserta pengalamatan IP sesuai dengan studi kasus yang diberikan
+Mengkonfigurasi piranti jaringan melalui aplikasi simulasi untuk menyelesaikan studi kasus
+Menjelaskan secara teliti tentang langkah-langkah dalam membangun jaringan komputer yang baik
+
+
+Topik Bahasan
+Beberapa topik yang akan dibahas pada mata kuliah ini adalah sebagai berikut:
+
+Pengantar dan Pengenalan Jaringan Komputer
+Perkembangan Infrastruktur dan Arsitektur Jaringan
+Klasifikasi Jaringan
+Model Protokol dan Referensi Jaringan
+Application, Presentation, Session Layer
+Transport Layer, Network Layer
+Pengalamatan Logis (IPv4)
+Pengalamatan Logis (IPv6)
+Subnetting IPv4 vs IPv6
+Routing
+Data Link Layer, Physical Layer
+Komunikasi data dan Transmisi data
+Dasar-Dasar Keamanan Jaringan
+Desain Topologi Jaringan

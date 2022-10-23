@@ -1,0 +1,4 @@
+Mahasiswa mampu:
+menuliskan alamat IPv4 beserta dengan pemilihan pelengkapnya (netmask / prefix) 
+mengklasifikasikan dan pengalokasian dalam IPv4 3
+menentukan solusi yang tepat untuk memecahkan masalah keterbatasan jumlah IP

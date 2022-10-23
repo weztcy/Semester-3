@@ -1,4 +1,0 @@
-Mahasiswa mampu:
-mengklasifikasikan model jaringan secara tepat 
-mendeskripsikan macammacam teknologi jaringan 
-menjelaskan ciri2 spesifik dalam evolusi jaringan

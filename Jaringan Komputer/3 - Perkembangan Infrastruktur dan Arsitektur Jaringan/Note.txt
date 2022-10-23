@@ -1,0 +1,4 @@
+Mahasiswa mampu:
+menjelaskan klasifikasi model dan tipe jaringan serta pemanfaatannya
+menyebutkan dan menjelaskan jenis struktur dan arsitektur jaringan
+Ketepatan dalam menerapkan konsep topologi

@@ -1,0 +1,7 @@
+Mahasiswa mampu:
+menjelaskan definisi serta fungsi Transport layer dan Network layer 
+menyebutkan perbedaan fungsi dan peran TCP dan UDP 
+memberikan contoh penerapan transport layer dalam komunikasi data
+menjelaskan konsep proxy 
+menganalisa pengalamatan logis 
+menjelaskan fungsi router, gateway, dsb
