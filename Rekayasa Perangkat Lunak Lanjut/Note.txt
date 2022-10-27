@@ -1,0 +1,22 @@
+Nama Dosen Pengampu : Egia Rosi Subhiyakto, M.Kom
+No Hp	: 0813-2957-1612
+email	: egia@dsn.dinus.ac.id
+Ruang Dosen	: H.2.3 (Gedung H Lantai 2 no 3)
+
+Roger S. Pressman, Software Engineering: A Practitioners Approach 8th Edition, McGraw-Hill, 2015
+Ian Sommerville, Software Engineering 10th Edition, Addison-Wesley, 2015
+Yingxu Wang, Software Engineering Foundations: A Software Science Perspective, Auerbach Publications, Taylor & Francis Group, 2008
+P. Bourque and R.E. Fairley, eds., Guide to the Software Engineering Body of Knowledge Version 3.0, IEEE Computer Society, http://www.swebok.org, 2014
+Gustavo Rossi, Oscar Pastor, Daniel S, Luis Olsina; Web Engineering,” Modelling and Implementing Web Applications’. Springer, 2008.
+Slide dan catatan perkuliahan
+
+KONTRAK KULIAH 
+TUGAS	:	40 %
+UTS	:	30 %
+UAS	:	30 %
+Kehadiran	:	Minimal 75 %
+
+PERATURAN:
+Toleransi kehadiran  5 menit
+Dilarang melakukan plagiat pada tugas besar
+Wajib mengikuti Responsi Tugas Besar dan presentasi
