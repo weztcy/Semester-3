@@ -1,0 +1,140 @@
+Menambah Data
+	tnode *baru
+	baru=new tnode
+	baru->data = databaru //Kiriman/inputan
+	baru->next=NULL
+
+1. Kondisi Jika Data masih kosong
+	if(head==NULL)
+	  head=baru
+	  tail=baru
+2. Else //Jika sudah ada data sebelumnya
+   a. Menambah Data diDepan
+	baru->next = head->next
+	head=baru
+   
+   b. Menambah DiBelakang	
+	tail->next = baru
+	tail=baru
+
+   c. Menambah Ditengah Setelah Data Tertentu
+	cin>>setelah
+	bantu=head
+	do
+	   if(bantu->data==setelah)
+              baru->next=bantu->next
+	      bantu->next=baru
+
+	   bantu=bantu->next
+	while (bantu!=NULL)	
+
+   d. Menambah data ditengah SEBELUM data tertentu
+	cin>>sebelum
+	bantu=head
+	do
+	    if(bantu->next->data==sebelum)
+	       baru->next=bantu->next
+	       bantu->next=baru
+
+	    bantu=bantu->next
+	while (bantu!=NULL)	
+
+----------------------------------------------------------
+MENGHAPUS DATA
+1. Kondisi apakah data masih Kosong
+	if(head==NULL)
+	  cout<<"Data ndak ada woyyyy"
+
+2. else //Data sudah ada sebelumnya
+   a. Menghapus data didepan
+      tnode *hapus
+      hapus=head
+
+      //Kondisi apakah data hanya ada 1 Node 
+      if(head==tail)      
+  	delete hapus
+	head=NULL
+	tail=NULL
+      //datanya lebih dari 1
+      else
+	head=head->next
+	delete hapus
+
+    b. Menghapus data diBELAKANG
+       tnode *hapus
+       hapus=tail
+      //Kondisi apakah data hanya ada 1 Node 
+      if(head==tail)      
+  	delete hapus
+	head=NULL
+	tail=NULL
+      //datanya lebih dari 1
+      else
+        tnode *bantu
+        bantu=head
+        do
+	   if(bantu->next->data==tail->data)
+	     tail=bantu
+	     tail->next=NULL
+	     delete hapus	
+
+	   bantu=bantu->next
+	while(bantu!=NULL)
+
+    c. Menghapus data ditengah
+       tnode *hapus
+       cin>>dimana
+      //Kondisi apakah data hanya ada 1 Node 
+      if(head==tail)      
+  	delete hapus
+	head=NULL
+	tail=NULL
+      //datanya lebih dari 1
+      else
+        tnode *bantu
+	bantu=head
+	do
+	    if(bantu->next->data == dimana)
+	       hapus=bantu->next
+	       bantu->next = bantu->next->next
+	       delete hapus
+	        
+
+	    bantu=bantu->next
+	while(bantu!=NULL)
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
