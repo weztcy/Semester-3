@@ -1,0 +1,16 @@
+Menyusun Use Case Diagram
+1. Identifikasi Actor
+	- Mahasiswa
+	- Petugas administrasi
+	- Dosen wali
+	- SISKEU
+	- SIKAD
+2. Identifikasi Use Case
+- Mengajukan usulan matkul
+- Mengonfirmasi KRS
+- Merevisi KRS
+- 
+- 
+- 
+- 
+- 
