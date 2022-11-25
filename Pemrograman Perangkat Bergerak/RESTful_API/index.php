@@ -1,5 +1,5 @@
 <?php
-    $file_db = "db_mahasiswa.db";
+    $file_db = "db_personaldata.db";
 
     try{
         $pdo = new PDO("sqlite:$file_db");
@@ -7,7 +7,7 @@
         $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 
         $sql_create = "CREATE TABLE IF NOT EXISTS `data_personal`(
-            `id` integer primary key AUTOINCREMENT,
+            `id` integer NOT NULL primary key AUTOINCREMENT,
             `nama` text NOT NULL,
             `jenis_kelamin` text NOT NULL,
             `tanggal_lahir` date NOT NULL,
@@ -30,7 +30,7 @@
         $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
         echo json_encode($data);
     }
-    elseif($_SERVER['REQUEST_METHOD' === 'GET']){
+    elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
         // tambah data dari server
         $nama = $_POST['nama'];
         $jenis_kelamin = $_POST['jenis_kelamin'];
@@ -40,7 +40,7 @@
         $no_telepon = $_POST['no_telepon'];
         $query = "insert into data_personal (nama, jenis_kelamin, tanggal_lahir, alamat, email, no_telepon) values (?, ?, ?, ?, ?, ?)";
         $stmt = $pdo->prepare($query);
-        $res = $stmt->execute($nama, $jenis_kelamin, $tanggal_lahir, $alamat, $email, $no_telepon);
+        $res = $stmt->execute([$nama, $jenis_kelamin, $tanggal_lahir, $alamat, $email, $no_telepon]);
         if($res){
             $data = ['nama'=>$nama, 'jenis_kelamin'=>$jenis_kelamin, 'tanggal_lahir'=>$tanggal_lahir, 'alamat'=>$alamat, 'email'=>$email, 'no_telepon'=>$no_telepon];
             echo json_encode($data);
@@ -49,7 +49,7 @@
             echo json_encode(['error'=>$stmt->errorCode()]);
         }
     }
-    elseif($_SERVER['REQUEST_METHOD' === 'DELETE']){
+    elseif($_SERVER['REQUEST_METHOD'] === 'DELETE'){
         // hapus data dari server
         $id = $_GET['id'];
         $query = "delete from data_personal where id = ?";
@@ -62,6 +62,5 @@
         else{
             echo json_encode(['error'=>$stmt->errorCode()]);
         }
-
     }
 ?>
