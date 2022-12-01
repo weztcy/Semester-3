@@ -267,7 +267,7 @@ void delData(){
 
         //MENGHAPUS DATA JIKA BERADA DI BELAKANG
         if (cariGame == tail->nama){
-            hapus = tail;
+            hapus  = tail;
             tail = tail->prev;
             tail->next = head;
             head->prev = tail;
@@ -294,7 +294,7 @@ void showData(){
         bantu = head;
         cout << "List Game : \n";
         do{
-            cout << bantu->nama << " | " << bantu->rilis << "\n";
+            cout << bantu->nama << " - " << bantu->rilis << "\n";
             bantu = bantu->next;
         } while (bantu != head);   
     }
