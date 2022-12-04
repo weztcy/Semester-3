@@ -1,0 +1,6 @@
+Mahasiswa Mampu:
+Mengkonfigurasi IP address pada router
+Menjelaskan perbedaan Routing Statik dan Dinamik
+Mengkonfigurasi Routing Statik
+
+Untuk menjalankan latihan cisco 11.6.1.3 perlu cisco versi 8.0.0

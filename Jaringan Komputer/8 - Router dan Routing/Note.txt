@@ -1,0 +1,4 @@
+Mahasiswa Mampu:
+Mengenal Router
+Memahami struktur tabel routing
+Mendeskripsikan bagaimana router menentukan arah tujuan paket

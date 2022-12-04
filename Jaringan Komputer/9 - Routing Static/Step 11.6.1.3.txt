@@ -1,0 +1,102 @@
+!R2-Central
+enable
+configure terminal
+
+hostname R2-Central
+
+!Setting password console
+line console 0
+password cisco
+login
+exit
+
+!Setting password telnet
+line vty 0 4
+password cisco
+login
+exit
+
+!Buat password menjadi tidak terlihat
+enable secret cisco
+
+!Setting banner
+banner motd $
+**This is lab router R2-Central. Authorized access only.**$
+
+!Setting interface fastethernet
+interface fastethernet0/0
+ip address 192.168.3.30 255.255.255.224
+no shutdown
+exit
+
+interface serial0/0/0
+ip address 192.168.3.97 255.255.255.252
+no shutdown
+exit
+
+!Setting IP route
+ip route 0.0.0.0 0.0.0.0 192.168.3.98 
+!(urutannya itu ip lalu subnet mask lalu next hop)
+exit
+
+!Save config
+copy running-config startup-config
+
+reload
+
+
+
+
+!R1-ISP
+
+enable
+configure terminal
+
+hostname R1-ISP
+
+!Setting password console
+line console 0
+password cisco
+login
+exit
+
+!Setting password telnet
+line vty 0 4
+password cisco
+login
+exit
+
+!Buat password menjadi tidak terlihat
+enable secret cisco
+
+!Setting banner
+banner motd $
+**This is lab router R1-ISP. Authorized access only.**$
+
+!Setting interface fastethernet
+interface fastethernet0/0
+ip address 192.168.3.78 255.255.255.240
+no shutdown
+exit
+
+!Setting interface serial
+interface serial0/0/0
+ip address 192.168.3.98 255.255.255.252
+no shutdown
+
+!Setting clock rate
+clock rate 64000
+exit
+
+!Setting IP route
+ip route 192.168.3.0 255.255.255.224 192.168.3.97
+!(urutannya itu ip lalu subnet mask lalu next hop)
+exit
+
+!Save config
+copy running-config startup-config
+
+reload
+
+
+!Setting switch
