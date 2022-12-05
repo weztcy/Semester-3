@@ -47,6 +47,7 @@ reload
 
 
 
+
 !R1-ISP
 
 enable
@@ -99,4 +100,42 @@ copy running-config startup-config
 reload
 
 
-!Setting switch
+
+
+
+!S1-Central
+
+enable
+configure terminal
+
+hostname R1-Central
+
+!Setting password console
+line console 0
+password cisco
+login
+exit
+
+!Setting password telnet
+line vty 0 4
+password cisco
+login
+exit
+
+!Buat password menjadi tidak terlihat
+enable secret cisco
+
+!Setting banner
+banner motd $
+**This is lab router S1-Central. Authorized access only.**$
+
+!Setting interface vlan
+interface vlan1
+ip address 192.168.3.29 255.255.255.224
+no shutdown
+exit
+
+!Save config
+copy running-config startup-config
+
+reload
