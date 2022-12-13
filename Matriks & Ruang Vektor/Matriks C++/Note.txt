@@ -1,0 +1,15 @@
+Tugas Program Matriks C++
+
+Yohanes Dimas Pratama
+A11.2021.13254
+43.UG2
+
+Program matriks ini terdiri dari:
+1. Penjumlahan
+2. Pengurangan
+3. Perkalian
+4. Transpose
+5. Determinan
+
+Setiap jenis program matriks diatas saya buat kedalam bentuk header,
+sehingga dapat dipanggil pada file main.cpp.
