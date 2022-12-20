@@ -1,0 +1,4 @@
+Mahasiswa Mampu:
+Menjelaskan konsep link state routing
+Mengkonfigurasi ospf point to point
+Mengkonfigurasi ospf single area
