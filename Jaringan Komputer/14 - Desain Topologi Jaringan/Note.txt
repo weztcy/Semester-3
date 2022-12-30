@@ -1,0 +1,4 @@
+Mahasiswa Mampu:
+Mendeskripsikan bagaimana sebuah network hirarkis mensupport voice, video, dan data.
+Mendeskripsikan fungsi setiap level model desain network hirarki, prinsip desain network hirarki, dan konsep sebuah converged network.
+Memilih device yang tepat untuk setiap level hirarki.
